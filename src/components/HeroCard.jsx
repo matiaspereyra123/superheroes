@@ -5,7 +5,7 @@ export const HeroCard =({hero})=>{
 
   return(
    
-
+ 
       <div className="card mb-3 m1-1 w-25" style={{width:'18rem'}}>
   <img src={`/assets/${hero.id}.jpg`} className="card-img-top" alt={hero.superhero}/>
   <div className="card-body">

@@ -7,12 +7,12 @@ function HeroList({publisher}) {
 
 const heroes = getHeroesByPublisher(publisher);
 return (
-    <div className='heroes-container d-flex flex-wrap'>
+    <div className='row ml-auto mr-auto'>
         {
             heroes.map((hero) => {
                 return (
                   
-                    <HeroCard hero={hero} />
+                    <HeroCard key={hero.id}hero={hero} />
                 )
             })
         }

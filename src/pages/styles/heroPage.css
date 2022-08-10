@@ -1,0 +1,31 @@
+
+
+
+.tarjeta{
+    width: 30%;
+    margin: 15px
+}
+.img-detail{
+    width: 350px;
+    display: block;
+    margin-top: 20px;
+}
+.w-30{
+    width: 30%;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ul-detail{
+    padding-left: 0px;
+}
+.div-detail-container{
+    justify-content: center;
+    padding-left: 0px;
+}
+.img{
+    text-align: center;
+}
+.article-power{
+    margin-top: 15px;
+}
